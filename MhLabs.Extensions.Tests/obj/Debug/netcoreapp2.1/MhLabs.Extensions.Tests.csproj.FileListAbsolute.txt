@@ -1,0 +1,17 @@
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.deps.json
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.runtimeconfig.json
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.runtimeconfig.dev.json
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.dll
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.pdb
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.dll
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\bin\Debug\netcoreapp2.1\MhLabs.Extensions.pdb
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.csprojAssemblyReference.cache
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.csproj.CoreCompileInputs.cache
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.AssemblyInfoInputs.cache
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.AssemblyInfo.cs
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.csproj.CopyComplete
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.dll
+c:\code\mhlabs\MhLabs.Extensions\MhLabs.Extensions.Tests\obj\Debug\netcoreapp2.1\MhLabs.Extensions.Tests.pdb
