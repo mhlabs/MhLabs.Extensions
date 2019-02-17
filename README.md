@@ -38,8 +38,6 @@ var json = order.ToJson();
 ```Env.Get(key)```  
 Short hand for Environment.GetEnvironmentVariable(key);
 
-Throws `JsonReaderException`
-
 Example:
 ```
 var apiUrl = Env.Get(ApiBaseUrl);
