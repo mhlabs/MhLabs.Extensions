@@ -43,3 +43,7 @@ Example:
 var apiUrl = Env.Get(ApiBaseUrl);
 ``` 
 
+
+## CollectionExtension.cs
+```IEnumerable.IsNullOrEmpty()```  
+returns true if collection is null or empty 
