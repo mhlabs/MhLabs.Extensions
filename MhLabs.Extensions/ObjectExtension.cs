@@ -11,6 +11,11 @@ namespace MhLabs.Extensions
             NamingStrategy = new CamelCaseNamingStrategy()
         };
 
+        public static string ToJson(this object obj)
+        {
+            return obj != null ? JsonConvert.SerializeObject(obj) : null;
+        }
+        
         public static string ToJson(this object obj, bool camelCase = false, Formatting formatting = Formatting.None)
         {
             return obj != null ? JsonConvert.SerializeObject(obj, new JsonSerializerSettings
