@@ -46,5 +46,46 @@ namespace MhLabs.Extensions.Tests
                 Assert.Throws<JsonReaderException>(() => jsonString.To<TestItem>());
             }
         }
+
+        public class Truncate : StringExtensionTests {
+            [Theory]
+            [InlineData("This is a simple string", 3)]
+            [InlineData("Short string", 5)]
+            [InlineData("Awesome string", 1)]
+            public void Should_Trucate_String(string input, int maxLength)
+            {
+                var result = input.Truncate(maxLength);
+                Assert.Equal(maxLength, result.Length);
+            }
+
+            [Theory]
+            [InlineData("This is a simple string", -1)]
+            [InlineData("Short string", -20)]
+            public void Should_Throw_When_Max_Length_Is_Negative(string input, int maxLength)
+            {
+                Assert.Throws<ArgumentOutOfRangeException>(() => input.Truncate(maxLength));
+            }
+
+            [Theory]
+            [InlineData("This is a simple string", 0)]
+            [InlineData("Short string", null)]
+            public void Should_Respect_Null_And_Zero_As_Max_Length(string input, int maxLength)
+            {
+                var result = input.Truncate(maxLength);
+                Assert.Equal(0, result.Length);
+            }
+
+            [Fact]
+            public void Should_Truncate_Whitespace()
+            {
+                var input = " < ";
+
+                var result = input.Truncate(0);
+                
+                Assert.Equal(0, result.Length);
+            }
+        }
+
+
     }
 }
