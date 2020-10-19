@@ -56,3 +56,6 @@ var apiUrl = Env.Get(ApiBaseUrl);
 ## CollectionExtension.cs
 ```IEnumerable.IsNullOrEmpty()```
 returns true if collection is null or empty
+
+```IEnumerable.GetChunks(chunkSize)```
+returns a IEnumerable of IEnumerable chunks
