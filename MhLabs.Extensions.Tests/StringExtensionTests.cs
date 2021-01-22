@@ -34,8 +34,11 @@ namespace MhLabs.Extensions.Tests
                 var item = _fixture.Create<TestItem>();
                 var jsonString = JsonConvert.SerializeObject(item);
                 var itemRestored = jsonString.To<TestItem>();
+                var nullItem = ((string)null).To<TestItem>();
                 Assert.Equal(item.Id, itemRestored.Id);
                 Assert.Equal(item.Message, itemRestored.Message);
+
+                Assert.Equal(null, nullItem);
             }
 
             [Fact]
@@ -45,6 +48,16 @@ namespace MhLabs.Extensions.Tests
 
                 Assert.Throws<JsonReaderException>(() => jsonString.To<TestItem>());
             }
+
+
+            [Fact]
+            public void To_NullDefaultsToDefault() {
+                Assert.True("true".To<bool>());
+                Assert.False("false".To<bool>());
+                string nil = null;
+                Assert.False(nil.To<bool>());
+            }
+
         }
 
         public class Truncate : StringExtensionTests {
