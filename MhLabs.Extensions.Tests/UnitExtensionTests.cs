@@ -9,8 +9,8 @@ namespace MhLabs.Extensions.Tests
         public void Should_Get_MinorUnit_From_Decimal()
         {
             // arrange
-            var amount = 100.00M;
-            var expected = 10000;
+            var amount = 809.95M;
+            var expected = 80995;
 
             // act
             var actual = amount.ToMinorUnit();
@@ -23,8 +23,8 @@ namespace MhLabs.Extensions.Tests
         public void Should_Get_MinorUnit_From_Double()
         {
             // arrange
-            var amount = 100.00D;
-            var expected = 10000;
+            var amount = 809.95M;
+            var expected = 80995;
 
             // act
             var actual = amount.ToMinorUnit();
@@ -37,8 +37,8 @@ namespace MhLabs.Extensions.Tests
         public void Should_Get_MajorUnit_In_Decimal_Format()
         {
             // arrange
-            var amount = 10000;
-            var expected = 100.00M;
+            var amount = 80995;
+            var expected = 809.95M;
 
             // act
             var actual = amount.ToMajorUnit<decimal>();
@@ -51,8 +51,8 @@ namespace MhLabs.Extensions.Tests
         public void Should_Get_MajorUnit_In_Double_Format()
         {
             // arrange
-            var amount = 10000;
-            var expected = 100.00D;
+            var amount = 80995;
+            var expected = 809.95D;
 
             // act
             var actual = amount.ToMajorUnit<double>();

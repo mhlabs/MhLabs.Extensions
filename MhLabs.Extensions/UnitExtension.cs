@@ -51,7 +51,7 @@ namespace MhLabs.Extensions
         {
             try
             {
-                var result = minorUnit / 100;
+                var result = (decimal)minorUnit / 100;
                 return (T)Convert.ChangeType(result, typeof(T));
             }
             catch 
